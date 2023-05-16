@@ -1,14 +1,12 @@
 import TypeVehicle from "./typeVehicle";
-import Vehicle from "./vehicles/Vehicle";
+import Motorcycle from "./vehicles/Motorcycle";
+import Car from "./vehicles/Car";
 
 const type = TypeVehicle.CAR;
-
 let vehicle;
 
 if (type === TypeVehicle.CAR) {
-    vehicle = new Vehicle("Amarelo", 2022, 2.0, 4, 4);
-    vehicle.car();
+  vehicle = new Car("Amarelo", 2022, 2.0, 4, 4);
 } else if (type === TypeVehicle.MOTORCYCLE) {
-    vehicle = new Vehicle ("Vermelho",2024, 2.0, 1, 0 );
-    vehicle.motorcycle();
+  vehicle = new Motorcycle("Vermelho", 2024, 2.0);
 }

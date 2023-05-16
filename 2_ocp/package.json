@@ -10,7 +10,7 @@
   "author": " Antônio Thiago Neto",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.1.4",
+    "@types/node": "^20.1.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   }
