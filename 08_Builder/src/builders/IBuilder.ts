@@ -8,10 +8,10 @@ export default interface IBuilder {
     reset(): void;
     getVehicle(): Vehicle;
 
-    addWheel(Wheel: Wheel);
+    addWheel(wheel: Wheel);
     setVehicleType(value: VehicleType);
     setSeats(seats: number);
     setEngine(engine: Engine);
-    setTransmission(trasnmission: Transmission);
+    setTransmission(transmission: Transmission);
 
 }

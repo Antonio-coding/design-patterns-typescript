@@ -38,7 +38,7 @@ export default class Vehicle {
     return this._engine;
   }
   set engine(value: Engine) {
-     this._engine= value;
+     this._engine = value;
   }
   get transmission(): Transmission {
     return this._transmission;
